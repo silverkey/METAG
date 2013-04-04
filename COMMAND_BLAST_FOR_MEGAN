@@ -1,0 +1,1 @@
+nohup time /home/remo/src/ncbi-blast-2.2.28+/bin/blastn -query test.fa -db nt -out test_nr.blastntab -max_target_seqs 30 -outfmt "7 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs qcovhsp sgi staxids stitle" -remote > nohup_test_tab.out &
