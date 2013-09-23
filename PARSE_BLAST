@@ -1,0 +1,6 @@
+perl parse_bacterial_genomes_blast.pl ../blast_allbac_134_1.txt ../blast_allbac_134_2.txt 134 > parseblast134.log
+echo 'DONE 134'
+
+perl parse_bacterial_genomes_blast.pl ../blast_allbac_135_1.txt ../blast_allbac_135_2.txt 135 > parseblast135.log
+echo 'DONE 135'
+

@@ -1,0 +1,12 @@
+nohup time /home/remo/src/ncbi-blast-2.2.28+/bin/blastn -query D1N6AACXX_SZN-1-08_01_2013_13s000134-1-1_Balestra_lane313s000134_1_sequence.fasta -db /home/remo/BLASTDB/ALL_BACTERIA/all_bacteria.fa -out /media/LOCAL_DATA_1/metag/blastn/blast_allbac_134_1.txt -max_target_seqs 30 -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs qcovhsp sgi staxids sscinames sskingdoms stitle" -word_size 16 -num_threads 24 > 134_1.nohup
+echo "DONE 134_1"
+
+nohup time /home/remo/src/ncbi-blast-2.2.28+/bin/blastn -query D1N6AACXX_SZN-1-08_01_2013_13s000134-1-1_Balestra_lane313s000134_2_sequence.fasta -db /home/remo/BLASTDB/ALL_BACTERIA/all_bacteria.fa -out /media/LOCAL_DATA_1/metag/blastn/blast_allbac_134_2.txt -max_target_seqs 30 -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs qcovhsp sgi staxids sscinames sskingdoms stitle" -word_size 16 -num_threads 24 > 134_2.nohup
+echo "DONE 134_2"
+
+nohup time /home/remo/src/ncbi-blast-2.2.28+/bin/blastn -query D1N6AACXX_SZN-2-08_01_2013_13s000135-1-1_Balestra_lane513s000135_1_sequence.fasta -db /home/remo/BLASTDB/ALL_BACTERIA/all_bacteria.fa -out /media/LOCAL_DATA_1/metag/blastn/blast_allbac_135_1.txt -max_target_seqs 30 -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs qcovhsp sgi staxids sscinames sskingdoms stitle" -word_size 16 -num_threads 24 > 135_1.nohup
+echo "DONE 135_1"
+
+nohup time /home/remo/src/ncbi-blast-2.2.28+/bin/blastn -query D1N6AACXX_SZN-2-08_01_2013_13s000135-1-1_Balestra_lane513s000135_2_sequence.fasta -db /home/remo/BLASTDB/ALL_BACTERIA/all_bacteria.fa -out /media/LOCAL_DATA_1/metag/blastn/blast_allbac_135_2.txt -max_target_seqs 30 -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs qcovhsp sgi staxids sscinames sskingdoms stitle" -word_size 16 -num_threads 24 > 135_2.nohup
+echo "DONE 135_2"
+
