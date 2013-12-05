@@ -1,0 +1,5 @@
+nohup /home/remo/src/bwa-0.7.5a/bwa index -a bwtsw allgenomes_april_2012_v6_one_per_species.fa > bwa_index.nohup &
+
+/home/remo/src/bwa-0.7.5a/bwa mem -t 24 genomes/allgenomes_april_2012_v6_one_per_species.fa fastq/34-1-1_1.fastq fastq/34-1-1_2.fastq > bwa_aln_34_pe.sam
+/home/remo/src/bwa-0.7.5a/bwa mem -t 24 genomes/allgenomes_april_2012_v6_one_per_species.fa fastq/35-1-1_1.fastq fastq/35-1-1_2.fastq > bwa_aln_35_pe.sam
+

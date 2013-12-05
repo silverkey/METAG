@@ -1,0 +1,1 @@
+nohup gt splitfasta -numfiles 22 D1N6AACXX_SZN-1-08_01_2013_13s000134-1-1_Balestra_lane313s000134_1_sequence.fasta &
